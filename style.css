@@ -17,3 +17,7 @@ Text Domain:
 */
 
 
+.hide-on-med-and-down iframe {
+	overflow-y: auto!important;
+	max-height: 300px!important;
+}

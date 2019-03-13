@@ -1,6 +1,6 @@
  <?php
   /* Busca o arquivo header.php do tema e includa na página */
-  /* Template Name: Educação */
+  /* Template Name: Projetos de Inovação */
   get_header();
 ?>
         
@@ -28,59 +28,40 @@
          				<?php wp_reset_query(); ?> 
 						
 
-						<h4 class="soluc">Soluções:</h4>
+					<!--	<h4 class="soluc">Soluções:</h4>
 
 						
 
 
 						<ul class="lista-solucoes">
-							
-							
-							
-							
-							
 							<li>
 								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
 								<h5>
-									<span>Universidades Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais">Veja nossas soluções</a>
+									<span>Capacitação</span>
+									<a href="#">Veja nossas soluções</a>
 								</h5>
 							</li>
 							<li>
 								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
 								<h5>
-									<span>Universidades Estaduais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-estaduais">Veja nossas soluções</a>
+									<span>Consultoria Técnica</span>
+									<a href="#">Veja nossas soluções</a>
 								</h5>
 							</li>
+
 							<li>
 								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
 								<h5>
-									<span>Secretarias Estaduais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao">Veja nossas soluções</a>
+									<span>Desenvolvimento sob Encomenda</span>
+									<a href="#">Veja nossas soluções</a>
 								</h5>
 							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Secretarias Municipais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Institutos Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Fundações de Apoio</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/fundacoes-de-apoio">Veja nossas soluções</a>
-								</h5>
-							</li>
+
+
+-->
+
+		
+						
 						</ul>
 
 					</div><!--.conteudo-->
@@ -105,13 +86,13 @@
 
 					<ul class="outras-instituicoes">
 
-						<?php query_posts(array('orderby' => 'rand','showposts' => '6', 'post_type' => 'clientes',
+						<?php query_posts(array('orderby' => 'rand','showposts' => '4', 'post_type' => 'clientes',
 
 								'tax_query' => array( 
 								        array( 
 								            'taxonomy' => 'empresas', //or tag or custom taxonomy
 								            'field' => 'term_id', // id do campo da taxonomia...
-		                					'terms' => '14', // o termo da taxonomia
+		                					'terms' => '21', // o termo da taxonomia
 								        ) 
 								    ) 
 

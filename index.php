@@ -60,37 +60,37 @@ em todo o Brasil </a>
 				<div class="cont-solucoes">
 		        		<ul id="cbp-tm-menu" class="cbp-tm-menu">
 							<li>
-								<a class="navtb subum" href="<?php bloginfo('url'); ?>/categories_services/educacao"><span class="ico-educacao"></span>Educação</a>
+								<a class="navtb subum" href="<?php bloginfo('url'); ?>/educacao"><span class="ico-educacao"></span>Educação</a>
 								
 							</li>
 							<li>
-								<a class="navtb subdois" href="<?php bloginfo('url'); ?>/categories_services/saude"><span class="ico-saude"></span>Saúde</a>
+								<a class="navtb subdois" href="<?php bloginfo('url'); ?>/saude"><span class="ico-saude"></span>Saúde</a>
 								
 							</li>
 							<li>
-								<a class="navtb subtres" href="<?php bloginfo('url'); ?>/categories_services/governo"><span class="ico-governo"></span>Governo</a>
+								<a class="navtb subtres" href="<?php bloginfo('url'); ?>/governo"><span class="ico-governo"></span>Governo</a>
 								
 							</li>
 							<li>
-								<a class="navtb subquatro" href="<?php bloginfo('url'); ?>/categories_services/gestao-empresarial"><span class="ico-gestao-empresarial"></span>Gestão Empresarial</a>
+								<a class="navtb subquatro" href="<?php bloginfo('url'); ?>/gestao-empresarial"><span class="ico-gestao-empresarial"></span>Gestão Empresarial</a>
 								
 							</li>
 							<li>
-								<a class="navtb subcinco" href="<?php bloginfo('url'); ?>/categories_services/fundacao-de-apoio"><span class="ico-fundacao-de-apoio"></span>Fundação de Apoio</a>
+								<a class="navtb subcinco" href="<?php bloginfo('url'); ?>/fundacoes-de-apoio"><span class="ico-fundacao-de-apoio"></span>Fundação de Apoio</a>
 								
 							</li>
 							<li>
-								<a class="navtb subseis" href="<?php bloginfo('url'); ?>/categories_services/big-data-analitycs-e-bi"><span class="ico-big-data-analitcs-bi"></span>BIG, Data, Analitcs, BI</a>
-								
-								
-							</li>
-							<li>
-								<a class="navtb subsete" href="<?php bloginfo('url'); ?>/categories_services/servicos-em-ti"><span class="ico-servicos-em-ti"></span>Serviços em TI</a>
+								<a class="navtb subseis" href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi"><span class="ico-big-data-analitcs-bi"></span>Big Data, Analitcs, BI</a>
 								
 								
 							</li>
 							<li>
-								<a class="navtb suboito" href="<?php bloginfo('url'); ?>/categories_services/projetos-de-inovacao"><span class="ico-projetos-de-inovacao"></span>Projetos de Inovação</a>
+								<a class="navtb subsete" href="<?php bloginfo('url'); ?>/servicos-em-ti"><span class="ico-servicos-em-ti"></span>Serviços em TI</a>
+								
+								
+							</li>
+							<li>
+								<a class="navtb suboito" href="<?php bloginfo('url'); ?>/projetos-de-inovacao"><span class="ico-projetos-de-inovacao"></span>Projetos de Inovação</a>
 								
 								
 							</li>
@@ -108,7 +108,7 @@ em todo o Brasil </a>
 				<div class="bloco-noticias owl-carousel owl-theme">
 
 
-				<?php query_posts(array( 'post_type' => 'post','showposts' => '4' )); ?>
+				<?php query_posts(array( 'post_type' => 'post','showposts' => '4','cat' => '-125' )); ?>
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 					    <div class="item">
 					    	<a href="<?php the_permalink(); ?>">
@@ -120,7 +120,7 @@ em todo o Brasil </a>
 							
 								<p> <? $content = get_the_excerpt();
 	                                echo substr($content, 0, 150);
-	                                ?>...</p>
+	                                ?></p>
 							</a>
 							<a href="<?php the_permalink(); ?>"	class="ver-mais">LER MAIS</a>
 					    </div><!--.item-->
@@ -131,7 +131,7 @@ em todo o Brasil </a>
 				    
 				</div><!--.bloco-noticias-->
 
-				<p class="center bt-plus"><a class="waves-effect waves-light btn-large">mais notícias</a></p>
+				<p class="center bt-plus"><a href="<?php bloginfo('url'); ?>/imprensa/noticias/" class="waves-effect waves-light btn-large">mais notícias</a></p>
 
 			</div>
 		</section>
@@ -144,7 +144,7 @@ em todo o Brasil </a>
 				<div class="bloco-depoimentos owl-carousel owl-theme">
 
 
-<?php query_posts(array( 'post_type' => 'depoimentos','showposts' => '20' )); ?>
+<?php query_posts(array('orderby' => 'rand', 'category_name' => 'depoimentos','showposts' => '20' )); ?>
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 					<div class="item">
@@ -164,7 +164,7 @@ em todo o Brasil </a>
 
 				</div><!--.row-->
 				<div class="row">
-					<p class="center bt-plus"><a class="waves-effect waves-light btn-large">ver todos</a></p>
+					<p class="center bt-plus"><a href="<?php bloginfo('url'); ?>/imprensa/depoimentos/" class="waves-effect waves-light btn-large">ver todos</a></p>
 				</div>
 			</div>
 		</section>

@@ -55,10 +55,8 @@ do Recôncavo da Bahia</strong></div></div>
 
 <div class="col s12 m6 l3 "><div class="z-depth-x box-client"><img class="size-full 2253" src="http://www.esig.com.br/portalsig/wp-content/uploads/2013/09/uema.jpg" alt="uema" class="responsive-img" /><strong>Universidade Estadual
 do Maranhão</strong></div></div>
-
-
-
-
+	
+																   
 </div>
 
 <h4>Institutos Federais de Educação</h4>

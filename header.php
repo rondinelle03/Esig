@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt_BR">
 	<head>
@@ -13,6 +12,9 @@
 		<title>ESIG Software e Consultoria em TI &#124; Muito além do software, inteligência e inovação</title>
 
 		<!-- FONTES -->
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,7 +29,7 @@
 		
 
 		<!-- Custom styles for this template -->
-		<link href="<?php bloginfo('template_url'); ?>/lib/css/principal.css?date=<? echo date ("Ymdhis")?>" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/lib/css/principal.css" rel="stylesheet">
 		<?php wp_head() ?>
 	</head>
         <body>
@@ -46,8 +48,9 @@
 			      <ul class="right hide-on-med-and-down">
 			      	<li><a class="dropdown-button" href="#!" data-activates="dropdown1">A ESIG </a></li>
 			        <li><a class="dropdown-button" href="#!" data-activates="dropdowndois">Soluções</a></li>
-			        <li><a href="<?php bloginfo('url'); ?>/nossos-clientes">Clientes</a></li>
-			        <li><a href="<?php bloginfo('url'); ?>/depoimentos">Depoimentos</a></li>
+			        <li><a href="<?php bloginfo('url'); ?>/clientes">Clientes</a></li>
+			        <li><a class="dropdown-button" href="#!" data-activates="dropdowndepoimento">Depoimentos</a></li>
+			      
 			        <li><a href="<?php bloginfo('url'); ?>/imprensa/noticias/">Notícias</a></li>
 			        <li><a href="<?php bloginfo('url'); ?>/carreiras">Carreiras</a></li>
 			        <li><a href="<?php bloginfo('url'); ?>/contato">Contato</a></li>
@@ -69,6 +72,7 @@
 			      	
 			      	<li><a href="https://www.facebook.com/pages/SIG-Software-e-Consultoria/241538042563409" target="_blank"><img src="<?php bloginfo('template_url'); ?>/imgs/facebook-circular-logo.svg" width="24"></a></li>
 			      	<li><a href="https://twitter.com/esigsoftware" target="_blank"><img src="<?php bloginfo('template_url'); ?>/imgs/social-twitter-circular-button.svg" width="24"></a></li>
+			      	<li><a href="https://www.instagram.com/esigsoftware/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/imgs/instagram-ico.svg" width="24"></a></li>
 			      </ul>
 			      <ul class="side-nav" id="mobile-demo">
 			         <li><a>A ESIG</a></li>
@@ -76,18 +80,19 @@
 					   <li><a href="<?php bloginfo('url'); ?>/a-esig/identidade-empresarial">- Identidade Empresarial</a></li>
 					   <li><a href="<?php bloginfo('url'); ?>/a-esig/um-grupo-unido-pela-inovacao-e-foco-no-cliente">- Inovação e foco no cliente</a></li>
 			        <li><a>SOLUÇÕES</a></li>
-			          <li><a href="<?php bloginfo('url'); ?>/categories_services/educacao">- Educação</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/saude">- Saúde</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/governo">- Governo</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/gestao-empresarial">- Gestão Empresarial</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/fundacao-de-apoio">- Fundação de Apoio</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/big-data-analitycs-e-bi">- BIG, Data, Analitcs, BI</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/servicos-em-ti">- Serviços em TI</a></li>
-					   <li><a href="<?php bloginfo('url'); ?>/categories_services/projetos-de-inovacao">- Projetos de Inovação</a></li>
+			          <li><a href="<?php bloginfo('url'); ?>/educacao">- Educação</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/saude">- Saúde</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/governo">- Governo</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/gestao-empresarial">- Gestão Empresarial</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/fundacoes-de-apoio">- Fundação de Apoio</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi">- Big Data, Analitcs, BI</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/servicos-em-ti">- Serviços em TI</a></li>
+					   <li><a href="<?php bloginfo('url'); ?>/projetos-de-inovacao">- Projetos de Inovação</a></li>
 
 
-			        <li><a href="<?php bloginfo('url'); ?>/nossos-clientes">Clientes</a></li>
-			        <li><a href="<?php bloginfo('url'); ?>/depoimentos">Depoimentos</a></li>
+			        <li><a href="<?php bloginfo('url'); ?>/clientes">Clientes</a></li>
+			        <li><a href="<?php bloginfo('url'); ?>/imprensa/depoimentos/saude/">Depoimentos (Saúde)</a></li>
+			        <li><a href="<?php bloginfo('url'); ?>/imprensa/depoimentos/educacao/">Depoimentos (Educação)</a></li>
 			        <li><a href="<?php bloginfo('url'); ?>/imprensa/noticias/">Notícias</a></li>
 			       <li><a href="<?php bloginfo('url'); ?>/carreiras">Carreiras</a></li>
 			        <li><a href="<?php bloginfo('url'); ?>/contato">Contato</a></li>
@@ -106,16 +111,28 @@
   <li><a href="<?php bloginfo('url'); ?>/a-esig/um-grupo-unido-pela-inovacao-e-foco-no-cliente">Um grupo unido pela inovação e foco no cliente</a></li>
 </ul>
 
+
+
+ <!-- DEPOIMENTOS DOIS -->
+<ul id="dropdowndepoimento" class="dropdown-content">
+   
+ <li><a href="<?php bloginfo('url'); ?>/imprensa/depoimentos/saude/">Saúde</a></li>
+ <li class="divider"></li>
+ <li><a href="<?php bloginfo('url'); ?>/imprensa/depoimentos/educacao/">Educação</a></li>
+</ul>
+
+
+
  <!-- Dropdown Structure -->
 <ul id="dropdowndois" class="dropdown-content">
-	<li><a href="<?php bloginfo('url'); ?>/categories_services/educacao">Educação</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/saude">Saúde</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/governo">Governo</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/gestao-empresarial">Gestão Empresarial</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/fundacao-de-apoio">Fundação de Apoio</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/big-data-analitycs-e-bi">BIG, Data, Analitcs, BI</a></li>
-					   <li><a href="<?php bloginfo('url'); ?>/categories_services/servicos-em-ti">Serviços em TI</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/categories_services/projetos-de-inovacao">Projetos de Inovação</a></li>
+	<li><a href="<?php bloginfo('url'); ?>/educacao">Educação</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/saude">Saúde</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/governo">Governo</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/gestao-empresarial">Gestão Empresarial</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/fundacoes-de-apoio">Fundação de Apoio</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi">Big Data, Analitcs, BI</a></li>
+					   <li><a href="<?php bloginfo('url'); ?>/servicos-em-ti">Serviços em TI</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/projetos-de-inovacao">Projetos de Inovação</a></li>
 
   
 </ul>

@@ -1,6 +1,6 @@
  <?php
   /* Busca o arquivo header.php do tema e includa na página */
-  /* Template Name: Educação */
+  /* Template Name: Secretarias Estaduais de Educação */
   get_header();
 ?>
         
@@ -16,6 +16,7 @@
 					<ul class="migalhas">
 						<li><span><a href="<?php bloginfo('url'); ?>/">HOME</a></span></li>
 						<li><span>Soluções & serviços</span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/educacao">Educação</a></span> </li>
 						<li><span><?php echo strip_tags(get_the_title()); ?></span> </li>
 					
 					</ul>
@@ -34,54 +35,53 @@
 
 
 						<ul class="lista-solucoes">
+							<li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao/quarkdocs/"><span>QuarkDocs</span></a>
+									
+								</h5>
+							</li>
+							<li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+									<span>SIGEduc</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao/sigeduc">Gestão do Ensino Básico</a>
+								</h5>
+							</li>
+
+							<li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+									<span>SIPAC</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao/sipac">Gestão Administrativa</a>
+								</h5>
+							</li>
+							<li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao/capacitacao"><span>Capacitação</span></a>
+									
+								</h5>
+							</li>
+							 <li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+									
+									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao/consultoria"><span>Consultoria</span></a>
+								</h5>
+							</li>
+							<li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+								
+									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao/desenvolvimento-de-software/"><span>Desenvolvimento de software</span></a>
+								</h5>
+							</li>
 							
 							
-							
-							
-							
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Universidades Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Universidades Estaduais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-estaduais">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Secretarias Estaduais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Secretarias Municipais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Institutos Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Fundações de Apoio</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/fundacoes-de-apoio">Veja nossas soluções</a>
-								</h5>
-							</li>
 						</ul>
+
 
 					</div><!--.conteudo-->
 					<div class="row">

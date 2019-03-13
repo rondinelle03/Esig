@@ -19,7 +19,7 @@
 					
 					</ul>
 				<div class="bloco-noticias-x">
-					<?php query_posts(array( 'showposts' => '12' )); ?>
+					<?php query_posts(array( 'showposts' => '12', 'cat' => '-126,-127' )); ?>
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 				
 				<div class="row">

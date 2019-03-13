@@ -7,7 +7,7 @@
 						</div>
 					</div>
 				<div class="row">
-					<?php query_posts(array( 'post_type' => 'post','showposts' => '2' )); ?>
+					<?php query_posts(array( 'post_type' => 'post','showposts' => '2', 'cat' => '-125' )); ?>
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 						
 							<div class="col s12 l12 m6">
@@ -20,9 +20,9 @@
 								    	</div>
 										<img src="<?php the_field('foto_de_chamada'); ?>">
 									
-										<p> <? $content = get_the_excerpt();
+										<!--<p> <? $content = get_the_excerpt();
 			                                echo substr($content, 0, 150);
-			                                ?>...</p>
+			                                ?>...</p>-->
 									</a>
 									<a href="<?php the_permalink(); ?>"	class="ver-mais">LER MAIS</a>
 							    </div><!--.item-->

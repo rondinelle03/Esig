@@ -79,11 +79,29 @@ header nav ul.right a:hover{
 transition: all 0.3s ease-in-out;
 }
 header nav ul.right{
-	margin: 46px 99px 0px 0px;
+	margin: 46px 135px 0px 0px;
 }
 
 .nav-wrapper{
 	position: relative;
+}
+.red-inf{
+	width:100%;
+	padding-right: 46px;
+}
+
+.red-inf li{
+	display: inline;
+	float: right;
+	margin: 0 7px;
+}
+
+.red-inf li a{
+	color: #8a8a8a;
+}
+
+.addthis_inline_share_toolbox{
+	display: none !important;
 }
 
 .brand-logo{
@@ -527,7 +545,7 @@ table td .btn{
 
 /*88888888888888888888888888888888888888888888888888888888888888888888888
 
-							SOLUÃƒâ€¡Ãƒâ€¢ES INTERNAS
+							SOLUÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ES INTERNAS
 
 88888888888888888888888888888888888888888888888888888888888888888888888*/
 
@@ -674,7 +692,7 @@ footer h4 span{
 
 .logo-rodape{
 	    float: right;
-    margin-top: 76px;
+	    margin-top: 44px;
 }
 
 /*FOOTER*/
@@ -775,7 +793,9 @@ footer h4 span{
 
 .lista-solucoes li h5 a{
 	border-bottom: 1px solid #9c9c9c;
-	color: #343538;
+    color: #343538;
+    font-weight: normal;
+    font-size: 14px;
 }
 
 #dropdown1{
@@ -788,7 +808,13 @@ footer h4 span{
 	top: 90px !important;
 }
 
-#dropdowndois li{
+
+#dropdowndepoimento{
+	min-width: 300px !important;
+	top: 90px !important;
+}
+
+#dropdowndois li,#dropdowndepoimento li{
 	clear: inherit;
 	float: left;
 	width: 50%;
@@ -796,7 +822,7 @@ footer h4 span{
 
 
 
-#dropdown1 li a,#dropdowndois li a{
+#dropdown1 li a,#dropdowndois li a,#dropdowndepoimento li a{
 	border-radius: 0;
 	border: 0; 
 }
@@ -838,10 +864,14 @@ footer h4 span{
     width: 276px;
 }
 .box-client {
-    margin-bottom: 20px;
+   margin-bottom: 20px;
     text-align: center;
     background: url(../../imgs/detalhe-linha.jpg) no-repeat center bottom;
     padding-bottom: 5px;
+    height: 225px;
+}
+.box-client img{
+	max-height:180px;
 }
 
 strong {
@@ -1127,6 +1157,21 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     color: #da2135;
 }
 
+#agend-visita{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 20;
+}
+
+@media only screen and (max-width: 1280px){
+	.cbp-tm-menu {
+	    margin: 20px 0 0 0px;
+	}
+	
+}
+
+
 @media only screen and  (min-width:1150px){
 
 	.bloco-noticias-x{
@@ -1163,6 +1208,8 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	
 
 }
+
+
 @media only screen and (max-width: 1149px){
 	.container {
 	    width: 90%;
@@ -1413,6 +1460,17 @@ footer .container {
 		padding: 20px 0px 19px 55px;
 		width: 160px;
 	}
+
+	.red-inf{
+	width:100%;
+	 padding-right: 0px;
+}
+
+.red-inf li{
+	display: inline;
+	float: right;
+	margin: 0 5px;
+}
 
 
 	#cbp-tm-menu li a.navtb.subum{

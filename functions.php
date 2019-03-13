@@ -1,5 +1,4 @@
 <?php 
-
 /*
 =======================================
 	CREATE POST TYPE AND TAXONOMIES

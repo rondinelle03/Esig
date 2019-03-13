@@ -1,6 +1,6 @@
  <?php
   /* Busca o arquivo header.php do tema e includa na página */
-  /* Template Name: Educação */
+  /* Template Name: Universidade Estaduais SUB */
   get_header();
 ?>
         
@@ -16,10 +16,12 @@
 					<ul class="migalhas">
 						<li><span><a href="<?php bloginfo('url'); ?>/">HOME</a></span></li>
 						<li><span>Soluções & serviços</span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/educacao">Educação</a></span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/educacao/universidades-estaduais">Universidades Estaduais</a></span> </li>
 						<li><span><?php echo strip_tags(get_the_title()); ?></span> </li>
 					
 					</ul>
-					<div class="conteudo">
+					<div class="conteudo lista-sistemas">
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 							<?php the_content(); ?> 
@@ -28,60 +30,7 @@
          				<?php wp_reset_query(); ?> 
 						
 
-						<h4 class="soluc">Soluções:</h4>
-
 						
-
-
-						<ul class="lista-solucoes">
-							
-							
-							
-							
-							
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Universidades Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Universidades Estaduais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-estaduais">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Secretarias Estaduais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Secretarias Municipais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Institutos Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Fundações de Apoio</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/fundacoes-de-apoio">Veja nossas soluções</a>
-								</h5>
-							</li>
-						</ul>
 
 					</div><!--.conteudo-->
 					<div class="row">

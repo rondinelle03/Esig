@@ -13,10 +13,8 @@ Natal/RN - Cep: 59076-500</span> </li>
 					</div>
 					<div class="col s12 m6 l4 hide-on-med-and-down">
 						<h4>recentes <span>tweets</span></h4>
-						<div class="twitter-box">
-							<p>Encerrando outubro comemorando os aniversariantes do mês e o Halloween  #esig #esigsoftware <a href="#">@sigsoftvware</a>
-							<span>31 de out</span></p>
-						</div>
+						<a class="twitter-timeline" href="https://twitter.com/esigsoftware?ref_src=twsrc%5Etfw">Tweets by esigsoftware</a> 	
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>
 					<div class="col s12 m6 l4">
 						

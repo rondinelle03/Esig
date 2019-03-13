@@ -1,66 +1,36 @@
  <?php
   /* Busca o arquivo header.php do tema e includa na página */
-  /* Template Name: Educação */
+  /* Template Name: Instituto Federais SUB */
   get_header();
 ?>
         
-
-<?php include 'imagens-paralax.php'; ?>
-
-
+   <div class="parallax-container">
+      <div class="parallax"><img src="<?php the_field('imagem_topo'); ?>"></div>
+    </div>
+	
 	<section class="sessao-conteudo">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 m6 l8">
-					<h1 class="titulo-interna">BIG, Data, Analitcs, BI
-					</h1> 
+					<h1 class="titulo-interna"><?php echo strip_tags(get_the_title()); ?></h1>
 					<ul class="migalhas">
 						<li><span><a href="<?php bloginfo('url'); ?>/">HOME</a></span></li>
 						<li><span>Soluções & serviços</span> </li>
-						<li><span>BIG, Data, Analitcs, BI</span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/educacao">Educação</a></span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/educacao/institutos-federais">Institutos Federais</a></span> </li>
+						<li><span><?php echo strip_tags(get_the_title()); ?></span> </li>
+					
 					</ul>
-					<div class="conteudo">
-						
-						<?php echo term_description( ) ?>
+					<div class="conteudo lista-sistemas">
+						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
+							<?php the_content(); ?> 
 
-						<h4 class="soluc">Soluções:</h4>
-
-							
-
-							
-
-	
-				<ul class="lista-solucoes">
-
-								<?php
-								$listed_post;
-								if(have_posts()) :
-									while(have_posts()) :
-										the_post();
-										$args = array(
-									    'before' => '<li>
-												<img src="http://www.test.brasilso.com/esig/wp-content/themes/esig/imgs/solucoes/tick-inside-circle.svg" width="52">
-												<h5>
-												<span>',
-											  'template' => __( '<em>%s</em> %l' ),
-										    'after' => '</h5></span></li> ',
-										);
-										$taxonomy = get_post_taxonomies();
-										$the_term = wp_get_post_terms($post->ID, $taxonomy, array("fields" => "all"));
-										if (empty($listed_post[$the_term[0]->term_id])) {
-											$listed_post[$the_term[0]->term_id] = $the_term[0]->name;
-											the_taxonomies( $args );
-										}
-									endwhile;
-								endif;
-							  wp_reset_query();
-							 	?>
-						</ul>
+						<?php endwhile; endif; ?> 
+         				<?php wp_reset_query(); ?> 
 						
 
-				
-				
+						
 
 					</div><!--.conteudo-->
 					<div class="row">
@@ -68,7 +38,7 @@
 							<a class="waves-effect waves-light btn-large bgint" href="javascript:history.back()">voltar</a>
 						</div>
 						<div class="col s12 m8">
-							<div class="right addthis_inline_share_toolboxx"></div>
+							<div class="right addthis_inline_share_toolbox"></div>
 						</div>
 					</div>
 				</div><!---.col s12 m6 l8-->

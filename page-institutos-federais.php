@@ -1,6 +1,6 @@
  <?php
   /* Busca o arquivo header.php do tema e includa na página */
-  /* Template Name: Educação */
+  /* Template Name: Institutos  Federais */
   get_header();
 ?>
         
@@ -16,6 +16,7 @@
 					<ul class="migalhas">
 						<li><span><a href="<?php bloginfo('url'); ?>/">HOME</a></span></li>
 						<li><span>Soluções & serviços</span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/educacao">Educação</a></span> </li>
 						<li><span><?php echo strip_tags(get_the_title()); ?></span> </li>
 					
 					</ul>
@@ -34,54 +35,65 @@
 
 
 						<ul class="lista-solucoes">
-							
-							
-							
-							
-							
 							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
 								<h5>
-									<span>Universidades Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais">Veja nossas soluções</a>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/capacitacao"><span>Capacitação</span></a>
+									
 								</h5>
 							</li>
 							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
 								<h5>
-									<span>Universidades Estaduais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-estaduais">Veja nossas soluções</a>
+									<span>SIGED</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/siged">Sistema Integrado de Gestão Eletrônica de Documentos</a>
+								</h5>
+							</li>
+
+							<li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+									<span>SIGPP</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/sigpp">Sistema Integrado de Gestão de Planejamento e de Projetos</a>
 								</h5>
 							</li>
 							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
 								<h5>
-									<span>Secretarias Estaduais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-estaduais-de-educacao">Veja nossas soluções</a>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/desenvolvimento-de-software"><span>Desenvolvimento de software</span></a>
+									
+								</h5>
+							</li>
+							 <li>
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
+								<h5>
+									<span>SIGAdmin</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/sigadmin">Sistema Integrado de Gestão da Administração e Comunicação</a>
 								</h5>
 							</li>
 							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
 								<h5>
-									<span>Secretarias Municipais de Educação</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao">Veja nossas soluções</a>
+									<span>SIGRH</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/sigrh">Gestão de Pessoas</a>
 								</h5>
 							</li>
 							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
 								<h5>
-									<span>Institutos Federais</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais">Veja nossas soluções</a>
+									<span>SIGAA</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/sigaa">Gestão Acadêmica</a>
 								</h5>
 							</li>
 							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
+								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
 								<h5>
-									<span>Fundações de Apoio</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/fundacoes-de-apoio">Veja nossas soluções</a>
+									<span>SIPAC</span>
+									<a href="<?php bloginfo('url'); ?>/educacao/institutos-federais/sipac">Gestão Administrativa</a>
 								</h5>
 							</li>
 						</ul>
+
 
 					</div><!--.conteudo-->
 					<div class="row">
