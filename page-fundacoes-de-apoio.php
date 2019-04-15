@@ -28,26 +28,7 @@
          				<?php wp_reset_query(); ?> 
 						
 
-						<h4 class="soluc">Soluções:</h4>
-
 						
-
-
-						<ul class="lista-solucoes">
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Gestão de Inscrições em Cursos e Eventos</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/fundacoes-de-apoio/gestao-de-inscricoes-em-cursos-e-eventos">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Gestão Integrada de Fundações</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/fundacoes-de-apoio/gestao-integrada-de-fundacoes">Veja nossas soluções</a>
-								</h5>
-							</li>
 
 							
 
@@ -82,7 +63,7 @@
 								        array( 
 								            'taxonomy' => 'empresas', //or tag or custom taxonomy
 								            'field' => 'term_id', // id do campo da taxonomia...
-		                					'terms' => '14', // o termo da taxonomia
+		                					'terms' => '135', // o termo da taxonomia
 								        ) 
 								    ) 
 

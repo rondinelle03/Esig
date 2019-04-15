@@ -79,7 +79,7 @@ header nav ul.right a:hover{
 transition: all 0.3s ease-in-out;
 }
 header nav ul.right{
-	margin: 46px 135px 0px 0px;
+	margin: 46px 174px 0px 0px;
 }
 
 .nav-wrapper{
@@ -378,6 +378,7 @@ transition: all 0.3s ease-in-out;
 	background: #fff url(../../imgs/detalhe-linha.jpg) no-repeat center bottom;
 	padding: 30px 50px;
 	margin-bottom: 50px;
+	width: 100%;
 	min-height: 330px;
 }
 
@@ -385,6 +386,7 @@ transition: all 0.3s ease-in-out;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 30px;
+	height: 120px;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-bottom: 30px;
 }
@@ -765,6 +767,14 @@ footer h4 span{
 	margin-top: 60px; 
 }
 
+.lista-solucoes br{
+	display: none;
+}
+
+.lista-solucoes a{
+	    display: table-cell;
+}
+
 .lista-solucoes,.lista-solucoes ul{
 	display: table;
 	width: 100%;
@@ -774,7 +784,8 @@ footer h4 span{
 .lista-solucoes ul li,.lista-solucoes li{
 	display: table;
 	width: 100%;
-	padding: 20px;
+	padding: 20px !important;
+	background: none !important;
 	border:1px solid #d7d7d7;
 	margin-bottom: -1px;
 }
@@ -1180,7 +1191,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 	.lista-sistemas ul li{
-		width: 50%;
+		width: 100%;
 		float: left;
 	}
 

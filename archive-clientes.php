@@ -18,16 +18,21 @@
 						
 					
 					</ul>
- 
+
+
+
+
 <div class="conteudo">
 <h4>Educação</h4>
+
+<h4>Universidades Federais</h4>
  <?php query_posts(array('orderby' => 'rand','showposts' => '80', 'post_type' => 'clientes',
 
 						'tax_query' => array( 
 						        array( 
 						            'taxonomy' => 'empresas', //or tag or custom taxonomy
 						            'field' => 'term_id', // id do campo da taxonomia...
-                					'terms' => '14', // o termo da taxonomia
+                					'terms' => '139', // o termo da taxonomia
 						        ) 
 						    ) 
 
@@ -43,6 +48,115 @@
 
 			         <?php wp_reset_query(); ?>
 </div>
+
+<div class="conteudo">
+
+<h4>Universidades Estaduais</h4>
+ <?php query_posts(array('orderby' => 'rand','showposts' => '80', 'post_type' => 'clientes',
+
+						'tax_query' => array( 
+						        array( 
+						            'taxonomy' => 'empresas', //or tag or custom taxonomy
+						            'field' => 'term_id', // id do campo da taxonomia...
+                					'terms' => '138', // o termo da taxonomia
+						        ) 
+						    ) 
+
+					)); ?>
+					
+			
+					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+
+					<div class="col s12 m6 l3 "><div class="z-depth-x box-client"><img class="2380 size-full responsive-img" src="<?php the_field('logo_da_empresa'); ?>"  /> <strong><?php echo strip_tags(get_the_title()); ?></strong></div></div>
+
+						<?php endwhile; endif; ?> 
+
+			         <?php wp_reset_query(); ?>
+</div>
+
+
+<div class="conteudo">
+
+
+<h4>Institutos Federais</h4>
+ <?php query_posts(array('orderby' => 'rand','showposts' => '80', 'post_type' => 'clientes',
+
+						'tax_query' => array( 
+						        array( 
+						            'taxonomy' => 'empresas', //or tag or custom taxonomy
+						            'field' => 'term_id', // id do campo da taxonomia...
+                					'terms' => '119', // o termo da taxonomia
+						        ) 
+						    ) 
+
+					)); ?>
+					
+			
+					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+
+					<div class="col s12 m6 l3 "><div class="z-depth-x box-client"><img class="2380 size-full responsive-img" src="<?php the_field('logo_da_empresa'); ?>"  /> <strong><?php echo strip_tags(get_the_title()); ?></strong></div></div>
+
+						<?php endwhile; endif; ?> 
+
+			         <?php wp_reset_query(); ?>
+</div>
+
+
+<div class="conteudo">
+
+<h4>Secretarias Estaduais</h4>
+ <?php query_posts(array('orderby' => 'rand','showposts' => '80', 'post_type' => 'clientes',
+
+						'tax_query' => array( 
+						        array( 
+						            'taxonomy' => 'empresas', //or tag or custom taxonomy
+						            'field' => 'term_id', // id do campo da taxonomia...
+                					'terms' => '136', // o termo da taxonomia
+						        ) 
+						    ) 
+
+					)); ?>
+					
+			
+					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+
+					<div class="col s12 m6 l3 "><div class="z-depth-x box-client"><img class="2380 size-full responsive-img" src="<?php the_field('logo_da_empresa'); ?>"  /> <strong><?php echo strip_tags(get_the_title()); ?></strong></div></div>
+
+						<?php endwhile; endif; ?> 
+
+			         <?php wp_reset_query(); ?>
+</div>
+
+
+<div class="conteudo">
+
+<h4>Secretarias Municipais</h4>
+ <?php query_posts(array('orderby' => 'rand','showposts' => '80', 'post_type' => 'clientes',
+
+						'tax_query' => array( 
+						        array( 
+						            'taxonomy' => 'empresas', //or tag or custom taxonomy
+						            'field' => 'term_id', // id do campo da taxonomia...
+                					'terms' => '137', // o termo da taxonomia
+						        ) 
+						    ) 
+
+					)); ?>
+					
+			
+					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+
+					<div class="col s12 m6 l3 "><div class="z-depth-x box-client"><img class="2380 size-full responsive-img" src="<?php the_field('logo_da_empresa'); ?>"  /> <strong><?php echo strip_tags(get_the_title()); ?></strong></div></div>
+
+						<?php endwhile; endif; ?> 
+
+			         <?php wp_reset_query(); ?>
+</div>
+
 
 
 
@@ -99,32 +213,7 @@
 </div>
 
 
-<div class="conteudo">
-<h4>Institutos Federais</h4>
- <?php query_posts(array('orderby' => 'rand','showposts' => '80', 'post_type' => 'clientes',
-
-						'tax_query' => array( 
-						        array( 
-						            'taxonomy' => 'empresas', //or tag or custom taxonomy
-						            'field' => 'term_id', // id do campo da taxonomia...
-                					'terms' => '119', // o termo da taxonomia
-						        ) 
-						    ) 
-
-					)); ?>
-					
-			
-					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-
-
-					<div class="col s12 m6 l3 "><div class="z-depth-x box-client"><img class="2380 size-full responsive-img" src="<?php the_field('logo_da_empresa'); ?>"  /> <strong><?php echo strip_tags(get_the_title()); ?></strong></div></div>
-
-						<?php endwhile; endif; ?> 
-
-			         <?php wp_reset_query(); ?>
-</div>
-
-			
+			<!--
 
 <div class="conteudo">
 <h4>Empresas Privadas</h4>
@@ -154,7 +243,7 @@
 			
 
 
-
+-->
 
 
 

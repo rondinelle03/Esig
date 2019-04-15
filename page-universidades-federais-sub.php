@@ -60,7 +60,7 @@
 								        array( 
 								            'taxonomy' => 'empresas', //or tag or custom taxonomy
 								            'field' => 'term_id', // id do campo da taxonomia...
-		                					'terms' => '14', // o termo da taxonomia
+		                					'terms' => '139', // o termo da taxonomia
 								        ) 
 								    ) 
 

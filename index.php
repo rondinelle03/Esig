@@ -80,7 +80,7 @@ em todo o Brasil </a>
 								
 							</li>
 							<li>
-								<a class="navtb subseis" href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi"><span class="ico-big-data-analitcs-bi"></span>Big Data, Analitcs, BI</a>
+								<a class="navtb subseis" href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi"><span class="ico-big-data-analitcs-bi"></span>Big Data</a>
 								
 								
 							</li>
@@ -89,11 +89,11 @@ em todo o Brasil </a>
 								
 								
 							</li>
-							<li>
+							<!--<li>
 								<a class="navtb suboito" href="<?php bloginfo('url'); ?>/projetos-de-inovacao"><span class="ico-projetos-de-inovacao"></span>Projetos de Inovação</a>
 								
 								
-							</li>
+							</li>-->
 		        		</ul>
 				</div><!--.cont sulucoes-->
 

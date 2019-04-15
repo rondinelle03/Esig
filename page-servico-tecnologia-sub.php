@@ -1,6 +1,6 @@
  <?php
   /* Busca o arquivo header.php do tema e includa na página */
-  /* Template Name: Saúde */
+  /* Template Name: SERVIÇO TECNOLOGIA  SUB*/
   get_header();
 ?>
         
@@ -16,10 +16,12 @@
 					<ul class="migalhas">
 						<li><span><a href="<?php bloginfo('url'); ?>/">HOME</a></span></li>
 						<li><span>Soluções & serviços</span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/governo">Governo</a></span> </li>
+						<li><span><a href="<?php bloginfo('url'); ?>/governo/servicos-de-tecnologia/">Serviços de Tecnologia</a></span> </li>
 						<li><span><?php echo strip_tags(get_the_title()); ?></span> </li>
 					
 					</ul>
-					<div class="conteudo">
+					<div class="conteudo lista-sistemas">
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 							<?php the_content(); ?> 
@@ -28,9 +30,6 @@
          				<?php wp_reset_query(); ?> 
 						
 
-				
-
-						
 
 					</div><!--.conteudo-->
 					<div class="row">
@@ -60,7 +59,7 @@
 								        array( 
 								            'taxonomy' => 'empresas', //or tag or custom taxonomy
 								            'field' => 'term_id', // id do campo da taxonomia...
-		                					'terms' => '15', // o termo da taxonomia
+		                					'terms' => '16', // o termo da taxonomia
 								        ) 
 								    ) 
 

@@ -5,7 +5,7 @@
 						<h4>Nossos <span>contatos</span></h4>
 
 						<ul class="list-rodape">
-							<li><i class="tiny material-icons">phone</i> (84) 3034-9310  |  (84) 4141-2141 </li>
+							<li><i class="tiny material-icons">phone</i> (84) 3034-9310  |  (84) 99110-8269 </li>
 							<li><i class="tiny material-icons">local_post_office</i> contato@esig.com.br </li>
 							<li><i class="tiny material-icons">location_on</i> Rua da Bronzita, 2002 - Lagoa Nova <span>
 Natal/RN - Cep: 59076-500</span> </li>

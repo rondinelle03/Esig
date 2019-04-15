@@ -29,58 +29,7 @@
          				<?php wp_reset_query(); ?> 
 						
 
-						<h4 class="soluc">Soluções:</h4>
-
 						
-
-
-						<ul class="lista-solucoes">
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao/quarkdocs/"><span>QuarkDocs</span></a>
-									
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIGEduc</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao/sigeduc">Gestão do Ensino Básico</a>
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIPAC</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao/sipac">Gestão Administrativa</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao/capacitacao"><span>Capacitação</span></a>
-									
-								</h5>
-							</li>
-							 <li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao/consultoria"><span>Consultoria</span></a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-								
-									<a href="<?php bloginfo('url'); ?>/educacao/secretarias-municipais-de-educacao/desenvolvimento-de-software/"><span>Desenvolvimento de software</span></a>
-								</h5>
-							</li>
-							
-							
-						</ul>
 
 
 					</div><!--.conteudo-->
@@ -111,7 +60,7 @@
 								        array( 
 								            'taxonomy' => 'empresas', //or tag or custom taxonomy
 								            'field' => 'term_id', // id do campo da taxonomia...
-		                					'terms' => '14', // o termo da taxonomia
+		                					'terms' => '137', // o termo da taxonomia
 								        ) 
 								    ) 
 

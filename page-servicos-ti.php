@@ -28,41 +28,7 @@
          				<?php wp_reset_query(); ?> 
 						
 
-						<h4 class="soluc">Soluções:</h4>
-
-						
-
-
-						<ul class="lista-solucoes">
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Capacitação</span>
-									<a href="#">Veja nossas soluções</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Consultoria Técnica</span>
-									<a href="#">Veja nossas soluções</a>
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/tick-inside-circle.svg" width="52">
-								<h5>
-									<span>Desenvolvimento sob Encomenda</span>
-									<a href="#">Veja nossas soluções</a>
-								</h5>
-							</li>
-
-
-
-
-		
-						
-						</ul>
+					
 
 					</div><!--.conteudo-->
 					<div class="row">

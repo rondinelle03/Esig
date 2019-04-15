@@ -29,88 +29,10 @@
          				<?php wp_reset_query(); ?> 
 						
 
-						<h4 class="soluc">Soluções:</h4>
 
 						
 
 
-						<ul class="lista-solucoes">
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIGAA</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/sigaa">Gestão Acadêmica</a>
-								</h5>
-							</li>
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIGRH</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/sigrh">Gestão de Pessoas</a>
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIGED</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/siged">Sistema Integrado de Gestão Eletrônica de Documentos</a>
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIPAC</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/sipac">Gestão Administrativa</a>
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/capacitacao"><span>Capacitação</span></a>
-									
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/consultoria"><span>Consultoria</span></a>
-									
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/desenvolvimento-sob-encomenda"><span>Desenvolvimento sob Encomenda</span></a>
-									
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIGPP</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/sigpp">Sistema Integrado de Gestão de Planejamento e de Projetos</a>
-								</h5>
-							</li>
-
-							<li>
-								<img src="<?php bloginfo('template_url'); ?>/imgs/solucoes/dashboard.svg" width="52">
-								<h5>
-									<span>SIGAdmin</span>
-									<a href="<?php bloginfo('url'); ?>/educacao/universidades-federais/sigadmin">Sistema Integrado de Gestão da Administração e Comunicação</a>
-								</h5>
-							</li>
-
-							
-							
-							
-							
-						</ul>
 
 
 					</div><!--.conteudo-->
@@ -141,7 +63,7 @@
 								        array( 
 								            'taxonomy' => 'empresas', //or tag or custom taxonomy
 								            'field' => 'term_id', // id do campo da taxonomia...
-		                					'terms' => '14', // o termo da taxonomia
+		                					'terms' => '139', // o termo da taxonomia
 								        ) 
 								    ) 
 

@@ -73,8 +73,6 @@
 			      	<li><a href="https://www.facebook.com/pages/SIG-Software-e-Consultoria/241538042563409" target="_blank"><img src="<?php bloginfo('template_url'); ?>/imgs/facebook-circular-logo.svg" width="24"></a></li>
 			      	<li><a href="https://twitter.com/esigsoftware" target="_blank"><img src="<?php bloginfo('template_url'); ?>/imgs/social-twitter-circular-button.svg" width="24"></a></li>
 			      	<li><a href="https://www.instagram.com/esigsoftware/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/imgs/instagram-ico.svg" width="24"></a></li>
-			      	<li><a href="https://pt.linkedin.com/company/sig-software-e-consultoria-em-tecnologia-da-informa-o" target="_blank"><img style="position: relative;
-    top: -2px;" src="<?php bloginfo('template_url'); ?>/imgs/lin-ico.png" width="24"></a></li>
 			      </ul>
 			      <ul class="side-nav" id="mobile-demo">
 			         <li><a>A ESIG</a></li>
@@ -87,9 +85,9 @@
 					  <li><a href="<?php bloginfo('url'); ?>/governo">- Governo</a></li>
 					  <li><a href="<?php bloginfo('url'); ?>/gestao-empresarial">- Gestão Empresarial</a></li>
 					  <li><a href="<?php bloginfo('url'); ?>/fundacoes-de-apoio">- Fundação de Apoio</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi">- Big Data</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi">- Data Science</a></li>
 					  <li><a href="<?php bloginfo('url'); ?>/servicos-em-ti">- Serviços em TI</a></li>
-					   <!--<li><a href="<?php bloginfo('url'); ?>/projetos-de-inovacao">- Projetos de Inovação</a></li>-->
+					  <!-- <li><a href="<?php bloginfo('url'); ?>/projetos-de-inovacao">- Projetos de Inovação</a></li> -->
 
 
 			        <li><a href="<?php bloginfo('url'); ?>/clientes">Clientes</a></li>
@@ -132,9 +130,9 @@
 					  <li><a href="<?php bloginfo('url'); ?>/governo">Governo</a></li>
 					  <li><a href="<?php bloginfo('url'); ?>/gestao-empresarial">Gestão Empresarial</a></li>
 					  <li><a href="<?php bloginfo('url'); ?>/fundacoes-de-apoio">Fundação de Apoio</a></li>
-					  <li><a href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi">Big Data</a></li>
+					  <li><a href="<?php bloginfo('url'); ?>/big-data-analitycs-e-bi">Data Science</a></li>
 					   <li><a href="<?php bloginfo('url'); ?>/servicos-em-ti">Serviços em TI</a></li>
-					 <!-- <li><a href="<?php bloginfo('url'); ?>/projetos-de-inovacao">Projetos de Inovação</a></li>-->
+					  <!-- <li><a href="<?php bloginfo('url'); ?>/projetos-de-inovacao">Projetos de Inovação</a></li> -->
 
   
 </ul>
